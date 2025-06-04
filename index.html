@@ -38,10 +38,13 @@
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="#menu">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" aria-disabled="true">Contactame</a>
+              <a class="nav-link" href="#contacto" aria-disabled="true">Contactame</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#contacto" aria-disabled="true">Iniciar sesion</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -62,6 +65,7 @@
     <!-- fin de barra de navegacion -->
 
     <!-- inicio del carrusel -->
+     <section>
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
         <button
@@ -127,6 +131,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    </section>
     <!-- fin del carrusel -->
 
     <!-- inicio de la tarjeta -->
@@ -271,6 +276,41 @@
     </section>
     <!-- fin de formulario -->
 
+<!-- modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin modal -->
+
+<!-- pie de pagina -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2025 Sazon Jaguero, todos los derechos reservados. <br>Siguenos en Instagram
+        </p>
+      </div>
+    </footer>
+<!-- fin de pie de pagina -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
